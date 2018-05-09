@@ -4,10 +4,15 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
+    "start": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "mapbox-gl": "^0.45.0",
+    "three": "^0.92.0",
+    "three-gltf-loader": "^1.92.0",
+    "threebox": "^0.1.5",
     "vue": "^2.5.16"
   },
   "devDependencies": {
